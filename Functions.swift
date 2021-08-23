@@ -27,3 +27,11 @@ func optionalsInFunctions(a: Int? = 120, b: Int? = 120) -> Int {
 
 print(optionalsInFunctions())
 print(optionalsInFunctions(a: 500, b: 500))
+
+// Multiple return 
+func multiReturn(a: Int) -> (Int, Int, Int) {
+    return (a, a+2, a+5)
+}
+
+print(multiReturn(a: 10))
+
